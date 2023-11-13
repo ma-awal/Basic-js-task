@@ -1,0 +1,13 @@
+.content {
+  display: none;
+}
+.content.active {
+  display: block;
+}
+
+.my-btn:not(.active) {
+  opacity: 0.2;
+}
+.my-btn.active {
+  opacity: 1;
+}
